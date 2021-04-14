@@ -1,0 +1,9 @@
+[submodule "monosodium-service"]
+	path = monosodium-service
+	url = https://github.com/featherbear/monosodium-service
+[submodule "monosodium-app"]
+	path = monosodium-app
+	url = https://github.com/featherbear/monosodium-app
+[submodule "monosodium-commons"]
+	path = monosodium-commons
+	url = https://github.com/featherbear/monosodium-commons
