@@ -5,11 +5,12 @@
 * User[]
   * MSG_AUTH : {}
     * Username : string
-    * Password : string
+    * Password : string // crypt
     * Sessions : unknown[]
   * FB_AUTH : {}
-    * Username : string
-    * Password : string
+    * User ID : number // store this
+    * Username : string // maybe don't need this
+    * Password : string // maybe don't need this
     * Session : unknown
   * Settings : {}
   * Queue : unknown[]
