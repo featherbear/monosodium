@@ -4,29 +4,29 @@
 
 * User[]
   * MSG_AUTH : {}
-    * Username : string
-    * Password : string // crypt
-    * Sessions : unknown[]
+    * username : string
+    * password : string // crypt
+    * sessions : unknown[]
   * FB_AUTH : {}
-    * User ID : number // store this
-    * Username : string // maybe don't need this
-    * Password : string // maybe don't need this
-    * Session : unknown
-  * Settings : {}
-  * Queue : unknown[]
+    * user ID : number // store this
+    * username : string // maybe don't need this
+    * password : string // maybe don't need this
+    * session : unknown
+  * SETTINGS : {}
+  * QUEUE : unknown[]
 
 # THREADS
 
 > Messages and media of a user
 
 * UserThread[]
-  * User : User
-  * Threads : Thread[]
-    * ID : unknown
-    * Name : unknown
-    * Participants : unknown[]
-    * Messages : Message[]
-      * From ?: unknown
-      * To ?: unknown
-      * Timestamp : Date (number)
-      * Data : unknown[]
+  * user : User
+  * threads : Thread[]
+    * id : unknown
+    * name : unknown
+    * members : unknown[]
+    * messages : Message[]
+      * from ?: unknown
+      * to ?: unknown
+      * timestamp : Date (number)
+      * data : unknown[]
